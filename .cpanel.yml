@@ -1,0 +1,6 @@
+---
+deployment
+  tasks
+    - export DEPLOYPATH=homeuserpublic_html
+    - bincp index.html $DEPLOYPATH
+    - bincp style.css $DEPLOYPATH
